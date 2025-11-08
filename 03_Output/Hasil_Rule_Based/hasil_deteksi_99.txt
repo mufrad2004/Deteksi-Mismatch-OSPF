@@ -1,0 +1,31 @@
+=== Mismatch antara R1 dan R9 ===
+=========================================================
+- MTU Mismatch :
+	* R1 Fa2/0 : 1500
+	* R9 Fa0/1 : 64
+=========================================================
++ Solusi :
+	* Samakan nilai MTU pada R1 dan R9
+=========================================================
+
+=== Mismatch antara R2 dan R3 ===
+=========================================================
+- auth_key Mismatch :
+	* R2 Fa1/0 : cisco123
+	* R3 Fa1/0 : cisco234
+=========================================================
++ Solusi :
+	* R2 dan R3 memiliki Authentication Key yang berbeda
+	* Samakan Authentication Key
+=========================================================
+
+=== Mismatch antara R4 dan R5 ===
+=========================================================
+- passive Mismatch :
+	* R4 Fa2/0 : False
+	* R5 Fa0/1 : True
+=========================================================
++ Solusi :
+	* Matikan passive interface pada interface Fa0/1 di R5
+=========================================================
+

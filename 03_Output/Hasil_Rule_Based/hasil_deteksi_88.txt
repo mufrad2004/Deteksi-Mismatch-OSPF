@@ -1,0 +1,20 @@
+=== Mismatch antara R1 dan R2 ===
+=========================================================
+- Hello Mismatch :
+	* R1 Fa0/1 : 10
+	* R2 Fa0/1 : 5
+=========================================================
++ Solusi :
+	* Samakan nilai Hello pada R1 dan R2
+=========================================================
+
+=== Mismatch antara R2 dan R3 ===
+=========================================================
+- auth_key Mismatch :
+	* R2 Fa1/0 : cisco123
+	* R3 Fa1/0 : ciso1233
+=========================================================
++ Solusi :
+	* R2 dan R3 memiliki Authentication Key yang berbeda
+	* Samakan Authentication Key
+=========================================================

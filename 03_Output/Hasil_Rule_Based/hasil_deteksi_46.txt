@@ -1,0 +1,20 @@
+=== Mismatch antara R1 dan R2 ===
+=========================================================
+- ospf auth Mismatch :
+	* R1 Fa0/1 : simple
+	* R2 Fa0/1 : message-digest
+=========================================================
++ Solusi :
+	* Samakan nilai ospf auth pada R1 dan R2
+=========================================================
+
+=== Mismatch antara R1 dan R2 ===
+=========================================================
+- auth_key Mismatch :
+	* R1 Fa0/1 : isco123
+	* R2 Fa0/1 : cisco123
+=========================================================
++ Solusi :
+	* R1 dan R2 memiliki Authentication Key yang berbeda
+	* Samakan Authentication Key
+=========================================================

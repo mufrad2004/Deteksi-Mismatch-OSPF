@@ -1,0 +1,8 @@
+=== Mismatch pada R9 ===
+=========================================================
+- Redistribute Mismatch :
+	* R9 belum melakukan redistribute atau command kurang "subnets"
+=========================================================
++ Solusi :
+	* Tambahkan command "redistribute eigrp <as number> subnets"
+=========================================================

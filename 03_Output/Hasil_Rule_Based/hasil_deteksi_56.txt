@@ -1,0 +1,30 @@
+=== Mismatch antara R4 dan R5 ===
+=========================================================
+- area Mismatch :
+	* R4 Fa2/0 : 20
+	* R5 Fa0/1 : 0
+=========================================================
++ Solusi :
+	* Samakan nilai area pada R4 dan R5
+=========================================================
+
+=== Mismatch antara R5 dan R7 ===
+=========================================================
+- ospf auth Mismatch :
+	* R5 Fa2/0 : message-digest
+	* R7 Fa0/1 : simple
+=========================================================
++ Solusi :
+	* Samakan nilai ospf auth pada R5 dan R7
+=========================================================
+
+=== Mismatch antara R5 dan R7 ===
+=========================================================
+- auth_key Mismatch :
+	* R5 Fa2/0 : cisco123
+	* R7 Fa0/1 : cisco124
+=========================================================
++ Solusi :
+	* R5 dan R7 memiliki Authentication Key yang berbeda
+	* Samakan Authentication Key
+=========================================================

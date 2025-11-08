@@ -1,0 +1,18 @@
+=== Mismatch antara R1 dan R2 ===
+=========================================================
+- ospf auth Mismatch :
+	* R1 Fa0/1 : message-digest
+	* R2 Fa0/1 : simple
+=========================================================
++ Solusi :
+	* Samakan nilai ospf auth pada R1 dan R2
+=========================================================
+
+=== Mismatch pada R7 ===
+=========================================================
+- Redistribute Mismatch :
+	* R7 belum melakukan redistribute atau command kurang "subnets"
+=========================================================
++ Solusi :
+	* Tambahkan command "redistribute eigrp <as number> subnets"
+=========================================================

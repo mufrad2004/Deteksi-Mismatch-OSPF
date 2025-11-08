@@ -1,0 +1,8 @@
+=== Mismatch pada R2 ===
+=========================================================
+- Redistribute Mismatch :
+	* R2 belum melakukan redistribute atau command kurang "subnets"
+=========================================================
++ Solusi :
+	* Tambahkan command "redistribute eigrp <as number> subnets"
+=========================================================

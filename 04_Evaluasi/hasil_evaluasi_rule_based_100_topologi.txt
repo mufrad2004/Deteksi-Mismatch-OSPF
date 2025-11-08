@@ -1,0 +1,27 @@
+=== HASIL EVALUASI RULE-BASED (100 TOPOLOGI) ===
+
+== Per Label ==
+AreaMismatch           | TP:  12 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 12
+AuthKeyMismatch        | TP:  11 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 11
+AuthMismatch           | TP:  14 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 14
+DeadMismatch           | TP:  15 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 15
+HelloMismatch          | TP:  18 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 18
+MTUMismatch            | TP:  11 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 11
+NetworkTypeMismatch    | TP:  11 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 11
+PassiveMismatch        | TP:  15 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 15
+RedistributeMismatch   | TP:  14 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 14
+RouterIDMismatch       | TP:  12 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 12
+
+== Rata-rata ==
+Macro Precision : 1.0
+Macro Recall    : 1.0
+Macro F1-Score  : 1.0
+Micro Precision : 1.0
+Micro Recall    : 1.0
+Micro F1-Score  : 1.0
+
+== Akurasi ==
+Micro Accuracy (Jaccard)    : 1.0
+Subset Accuracy (Exact, μ)  : 1.0
+Total Topology Evaluated    : 77
+Total TP/FP/FN              : 133/0/0

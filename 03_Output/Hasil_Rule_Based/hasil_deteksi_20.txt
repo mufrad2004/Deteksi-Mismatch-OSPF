@@ -1,0 +1,18 @@
+=== Mismatch antara R1 dan R9 ===
+=========================================================
+- Dead Mismatch :
+	* R1 Fa2/0 : 30
+	* R9 Fa0/1 : 40
+=========================================================
++ Solusi :
+	* Samakan nilai Dead pada R1 dan R9
+=========================================================
+
+=== Mismatch pada R3 ===
+=========================================================
+- Redistribute Mismatch :
+	* R3 belum melakukan redistribute atau command kurang "subnets"
+=========================================================
++ Solusi :
+	* Tambahkan command "redistribute eigrp <as number> subnets"
+=========================================================

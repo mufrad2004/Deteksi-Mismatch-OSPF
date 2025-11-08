@@ -1,0 +1,18 @@
+=== Mismatch antara R3 dan R4 ===
+=========================================================
+- Hello Mismatch :
+	* R3 Fa1/1 : 15
+	* R4 Fa1/0 : 10
+=========================================================
++ Solusi :
+	* Samakan nilai Hello pada R3 dan R4
+=========================================================
+
+=== Mismatch pada R5 ===
+=========================================================
+- Redistribute Mismatch :
+	* R5 belum melakukan redistribute atau command kurang "subnets"
+=========================================================
++ Solusi :
+	* Tambahkan command "redistribute eigrp <as number> subnets"
+=========================================================

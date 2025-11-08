@@ -1,0 +1,8 @@
+=== Mismatch pada R7 ===
+=========================================================
+- Redistribute Mismatch :
+	* R7 belum melakukan redistribute atau command kurang "subnets"
+=========================================================
++ Solusi :
+	* Tambahkan command "redistribute eigrp <as number> subnets"
+=========================================================
