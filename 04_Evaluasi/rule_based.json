@@ -1,1396 +1,1202 @@
 {
   "Topologi 1": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 2": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 3": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 4": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 5": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 6": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 7": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 8": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 9": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 10": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 11": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 12": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 13": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 14": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 15": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 16": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 17": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 18": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 19": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      },
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 20": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 21": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 22": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R5"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": true
   },
   "Topologi 23": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 24": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 25": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 26": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 27": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 28": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      },
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 29": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 30": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 31": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 32": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 33": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 34": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 35": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 36": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      },
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 37": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 38": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 39": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 40": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 41": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 42": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 43": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 44": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 45": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 46": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 47": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      },
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 48": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 49": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 50": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 51": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 52": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 53": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 54": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 55": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 56": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      },
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 57": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R3"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": true
   },
   "Topologi 58": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 59": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 60": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 61": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 62": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 63": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 64": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 65": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 66": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 67": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 68": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 69": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 70": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 71": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 72": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 73": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 74": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 75": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 76": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 77": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 78": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 79": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 80": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 81": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 82": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 83": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 84": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 85": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 86": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 87": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 88": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 89": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 90": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 91": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": true,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 92": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      },
-      {
-        "type": "RedistributeMismatch",
-        "routers": [
-          "R2"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": true,
+    "RouterIDMismatch": false
   },
   "Topologi 93": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R2"
-        ]
-      },
-      {
-        "type": "RouterIDMismatch",
-        "routers": [
-          "R3",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": true
   },
   "Topologi 94": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 95": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "DeadMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "AuthMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": true,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": true,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 96": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "NetworkTypeMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R5",
-          "R7"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": true,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 97": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "HelloMismatch",
-        "routers": [
-          "R1",
-          "R3"
-        ]
-      },
-      {
-        "type": "AreaMismatch",
-        "routers": [
-          "R2",
-          "R4"
-        ]
-      }
-    ]
+    "HelloMismatch": true,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": true,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 98": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 99": {
-    "status": "Mismatch",
-    "mismatch": [
-      {
-        "type": "MTUMismatch",
-        "routers": [
-          "R1",
-          "R9"
-        ]
-      },
-      {
-        "type": "AuthKeyMismatch",
-        "routers": [
-          "R2",
-          "R3"
-        ]
-      },
-      {
-        "type": "PassiveMismatch",
-        "routers": [
-          "R4",
-          "R5"
-        ]
-      }
-    ]
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": true,
+    "MTUMismatch": true,
+    "PassiveMismatch": true,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   },
   "Topologi 100": {
-    "status": "Normal",
-    "mismatch": []
+    "HelloMismatch": false,
+    "DeadMismatch": false,
+    "NetworkTypeMismatch": false,
+    "AreaMismatch": false,
+    "AuthMismatch": false,
+    "AuthKeyMismatch": false,
+    "MTUMismatch": false,
+    "PassiveMismatch": false,
+    "RedistributeMismatch": false,
+    "RouterIDMismatch": false
   }
 }

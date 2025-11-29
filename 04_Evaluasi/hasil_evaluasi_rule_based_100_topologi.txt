@@ -1,27 +1,34 @@
 === HASIL EVALUASI RULE-BASED (100 TOPOLOGI) ===
 
 == Per Label ==
-AreaMismatch           | TP:  12 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 12
-AuthKeyMismatch        | TP:  11 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 11
-AuthMismatch           | TP:  14 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 14
-DeadMismatch           | TP:  15 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 15
-HelloMismatch          | TP:  18 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 18
-MTUMismatch            | TP:  11 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 11
-NetworkTypeMismatch    | TP:  11 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 11
-PassiveMismatch        | TP:  15 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 15
-RedistributeMismatch   | TP:  14 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 14
-RouterIDMismatch       | TP:  12 | FP:   0 | FN:   0 | Prec: 1.000 | Rec: 1.000 | F1: 1.000 | Support: 12
+Label                  | TP  FP  FN  TN  | Prec   Rec    F1     Acc    | Pos  Neg  All
+------------------------------------------------------------------------------------------------
+HelloMismatch          |  17   0   0  83 | 1.0000 1.0000 1.0000 1.0000 |   17   83  100
+DeadMismatch           |  14   0   0  86 | 1.0000 1.0000 1.0000 1.0000 |   14   86  100
+NetworkTypeMismatch    |  11   0   0  89 | 1.0000 1.0000 1.0000 1.0000 |   11   89  100
+AreaMismatch           |  12   0   0  88 | 1.0000 1.0000 1.0000 1.0000 |   12   88  100
+AuthMismatch           |  14   0   0  86 | 1.0000 1.0000 1.0000 1.0000 |   14   86  100
+AuthKeyMismatch        |  11   0   0  89 | 1.0000 1.0000 1.0000 1.0000 |   11   89  100
+MTUMismatch            |  11   0   0  89 | 1.0000 1.0000 1.0000 1.0000 |   11   89  100
+PassiveMismatch        |  15   0   0  85 | 1.0000 1.0000 1.0000 1.0000 |   15   85  100
+RedistributeMismatch   |  14   0   0  86 | 1.0000 1.0000 1.0000 1.0000 |   14   86  100
+RouterIDMismatch       |  12   0   0  88 | 1.0000 1.0000 1.0000 1.0000 |   12   88  100
 
-== Rata-rata ==
-Macro Precision : 1.0
-Macro Recall    : 1.0
-Macro F1-Score  : 1.0
-Micro Precision : 1.0
-Micro Recall    : 1.0
-Micro F1-Score  : 1.0
+== Rata-rata (Macro) ==
+Macro Precision       : 1.0
+Macro Recall          : 1.0
+Macro F1-Score        : 1.0
+Macro Accuracy        : 1.0
 
-== Akurasi ==
-Micro Accuracy (Jaccard)    : 1.0
-Subset Accuracy (Exact, μ)  : 1.0
-Total Topology Evaluated    : 77
-Total TP/FP/FN              : 133/0/0
+== Metrik Mikro (Global) ==
+Micro Precision       : 1.0
+Micro Recall          : 1.0
+Micro F1-Score        : 1.0
+Micro Accuracy Jaccard: 1.0
+Micro Accuracy Std    : 1.0
+Hamming Accuracy      : 1.0
+
+== TN & Subset Accuracy ==
+Total TP/FP/FN/TN     : 131/0/0/869
+Subset Accuracy (Exact Match, mean) : 1.0
+Total Topology Evaluated           : 100
